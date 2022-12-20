@@ -48,6 +48,13 @@ module.exports = {
         ],
       },
       {
+        test: /\.json$/i,
+        type: "asset/resource",
+        generator: {
+          filename: "assets/images/[name]-[contenthash][ext]",
+        },
+      },
+      {
         test: /\.(css|sass|scss)/,
         use: [
           {
