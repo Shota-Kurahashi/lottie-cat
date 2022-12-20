@@ -19,7 +19,7 @@ window.addEventListener(
     setTimeout(() => {
       lottieObj.pause();
       load.classList.add("load--loaded");
-    }, 1000);
+    }, 10000);
   },
   false
 );
