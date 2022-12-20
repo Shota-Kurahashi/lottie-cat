@@ -22,7 +22,7 @@ module.exports = {
     project: "tsconfig.json",
   },
   plugins: ["@typescript-eslint", "import", "unused-imports", "prefer-arrow"],
-  ignorePatterns: ["dist"],
+  ignorePatterns: ["dist", "*.config.js", "*.config.prod.js"],
   rules: {
     "lines-between-class-members": [
       "error",
