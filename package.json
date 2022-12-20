@@ -47,5 +47,8 @@
   },
   "browserslist": [
     "> 0.2% and not dead"
-  ]
+  ],
+  "dependencies": {
+    "lottie-web": "^5.10.0"
+  }
 }
