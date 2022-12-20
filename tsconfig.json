@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es6",
+    "lib": ["es2020", "dom"],
+    "jsx": "preserve",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node", //!
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+    // "skipLibCheck": true
+  },
+  "include": ["src", ".eslintrc.js"],
+  "exclude": ["dist", "node_modules"],
+  "compileOnSave": false
+}

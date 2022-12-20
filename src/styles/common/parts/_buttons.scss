@@ -1,0 +1,21 @@
+@use "../../global" as *;
+
+.btn {
+  max-width: 100%;
+  width: 150px;
+  display: inline-block;
+  padding: 15px 10px;
+  border: 1px solid #000;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: all 0.25s;
+  background-color: $color-white;
+  color: $color-black;
+
+  &:hover {
+    background-color: $color-black;
+    color: $color-white;
+    border: 1px solid $color-black;
+    box-shadow: none;
+  }
+}
