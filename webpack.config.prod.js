@@ -51,7 +51,7 @@ module.exports = {
         test: /\.json$/i,
         type: "asset/resource",
         generator: {
-          filename: "assets/images/[name]-[contenthash][ext]",
+          filename: "assets/images/[name][ext]",
         },
       },
       {
