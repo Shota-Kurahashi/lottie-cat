@@ -110,6 +110,10 @@ module.exports = {
       template: "./src/templates/index.html",
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/templates/single.html",
+      filename: "single.html",
+    }),
     new CleanWebpackPlugin(),
     new TerserPlugin({
       terserOptions: {
