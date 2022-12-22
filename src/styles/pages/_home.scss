@@ -22,6 +22,11 @@ img {
     opacity: 0;
     visibility: hidden;
   }
+
+  & > svg {
+    width: clamp(300px, 50vw, 80%) !important;
+    height: clamp(300px, 50vw, 80%) !important;
+  }
 }
 
 .header-img {
